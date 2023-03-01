@@ -13,12 +13,12 @@ export default function NavBar({ user, setUser }) {
         <nav>
             <div className="NavBar">
                 <p>Welcome, <strong>{user.name}</strong></p>
-                <Link to="/notes">All Notes</Link>
-                <Link to="/notes/new">Create a Note</Link>
+                <Link to="/memo">All Memos</Link>
+                <Link to="/memo/new">Create a Memo</Link>
                 <Link to="" onClick={handleLogOut}>Log Out</Link>
             </div>
             <div className="NavBar">
-                <h1>📝 Quick Notes</h1>
+                <h1>📝 MemoMate</h1>
             </div>
         </nav>
     )

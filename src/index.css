@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
-body {
+body, button, textarea, select, input[type="text"] {
   font: 14px "Roboto Mono";
+}
+
+button:hover, a:hover {
+  cursor: pointer;
 }

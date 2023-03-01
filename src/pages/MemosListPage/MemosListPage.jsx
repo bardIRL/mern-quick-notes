@@ -1,7 +1,7 @@
 export default function NotesListPage() {
     return (
         <>
-            <h1>All Notes</h1>
+            <h1>All Memos</h1>
         </>
     )
 }
